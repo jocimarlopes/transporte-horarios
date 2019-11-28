@@ -1,3 +1,6 @@
+.background {
+    background-color: rgb(89, 194, 255) !important;
+}
 .logo {
     width: 45%;
     position: relative;
@@ -8,15 +11,12 @@
     border-radius: 20px;
     width: 60%;
     height: 50px;
-    background-color: rgba(57, 144, 226, 0.849);
-}
-.imagem-bg {
-    position: relative;
-    top: -14px;
+    background-color: #fff;
+    color: rgb(30, 140, 204) !important;
 }
 a {
     text-decoration: none;
-    color: rgba(57, 144, 226, 0.849);
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ a {
     position: fixed;
     bottom: 2px;
     font-size: 10px;
-    color: #bebebe;
+    color: #fff;
     width: 200px;
     left: 50%;
     margin-left: -100px;
