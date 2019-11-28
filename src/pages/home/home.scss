@@ -1,3 +1,32 @@
-page-home {
-
+.logo {
+    width: 45%;
+    position: relative;
+    left: 50%;
+    margin-left: -27%;
+}
+.button-basic {
+    border-radius: 20px;
+    width: 60%;
+    height: 50px;
+    background-color: rgba(57, 144, 226, 0.849);
+}
+.imagem-bg {
+    position: relative;
+    top: -14px;
+}
+a {
+    text-decoration: none;
+    color: rgba(57, 144, 226, 0.849);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.copyright {
+    position: fixed;
+    bottom: 2px;
+    font-size: 10px;
+    color: #bebebe;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
 }

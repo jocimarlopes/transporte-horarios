@@ -3,21 +3,259 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <img align-horizontal class="logo"  src="../../assets/logo.png"> 
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+<ion-content padding>
+    <ion-list>
+      <ion-list-header text-center class="titulo-horarios">
+        Segunda-feira a Sexta-feira
+      </ion-list-header>
+
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            05:20
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            06:20
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            07:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            07:50
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            08:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            09:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            09:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            10:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            11:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            11:35
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída ao 
+            12:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída ao 
+            12:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída ao 
+            12:45
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            13:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            14:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            14:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            15:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            15:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            16:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            16:30
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            17:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            17:35
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            18:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            18:35
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            19:00
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            19:40
+          </h2>
+        </ion-label>
+      </ion-item>
+      <ion-item color="light" margin-bottom>
+        <ion-label>
+          <h2 text-center>
+            <ion-icon slot="start" name="time"></ion-icon>
+            Saída às 
+            20:40
+          </h2>
+        </ion-label>
+      </ion-item>
+
+    </ion-list>
 </ion-content>
