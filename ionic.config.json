@@ -1,0 +1,7 @@
+{
+  "name": "transflor",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
