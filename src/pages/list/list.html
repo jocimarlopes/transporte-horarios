@@ -12,13 +12,13 @@
 <ion-content padding>
   <ion-segment margin-bottom [(ngModel)]="status" (ionChange)="segmentChanged($event)">
     <ion-segment-button value="1">
-      <ion-label>Dias Úteis</ion-label>
+      <ion-label color="logo">Dias Úteis</ion-label>
     </ion-segment-button>
     <ion-segment-button value="2">
-      <ion-label>Sábado</ion-label>
+      <ion-label color="logo">Sábado</ion-label>
     </ion-segment-button>
     <ion-segment-button value="3">
-      <ion-label>Domingo</ion-label>
+      <ion-label color="logo">Domingo</ion-label>
     </ion-segment-button>
   </ion-segment>
 <div [ngSwitch]="status">
