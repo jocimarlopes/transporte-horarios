@@ -13,7 +13,7 @@ export class HomePage {
   async presentAlert() {
     const alert = await this.alertController.create({
       title: 'Sobre',
-      message: 'Desenvolvido por <a href="https://jocimarlopes.com.br">Jocimar Lopes</a>',
+      message: 'Versão: 1.0<br>Desenvolvedor: <a href="https://jocimarlopes.com.br">Jocimar Lopes</a>',
       buttons: ['OK']
     });
 
