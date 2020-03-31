@@ -10,7 +10,7 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-segment margin-bottom [(ngModel)]="status" (ionChange)="segmentChanged($event)">
+  <ion-segment  value="1" margin-bottom [(ngModel)]="status" (ionChange)="segmentChanged($event)">
     <ion-segment-button value="1">
       <ion-label color="logo">Dias Úteis</ion-label>
     </ion-segment-button>
@@ -22,10 +22,10 @@
     </ion-segment-button>
   </ion-segment>
 <div [ngSwitch]="status">
-    <ion-list size="12" *ngSwitchCase="1">
+    <ion-list size="12" *ngSwitchDefault>
       <ion-item color="background" class="list-time" size="6" *ngFor="let uteis of util">
         <ion-label>
-          <h2 text-center>
+          <h2 class="horario" text-center>
             <ion-icon slot="start" name="bus"></ion-icon>
             {{uteis.hora}}
           </h2>
@@ -36,7 +36,7 @@
     <ion-list size="12" *ngSwitchCase="2">
       <ion-item color="background" class="list-time" size="6" *ngFor="let sab of sabado">
           <ion-label>
-            <h2 text-center>
+            <h2 class="horario" text-center>
               <ion-icon slot="start" name="bus"></ion-icon>
               {{sab.hora}}
             </h2>
@@ -47,7 +47,7 @@
     <ion-list size="12" *ngSwitchCase="3">
           <ion-item color="background" class="list-time" size="6" *ngFor="let dom of domingo">
             <ion-label>
-              <h2 text-center>
+              <h2 class="horario" text-center>
                 <ion-icon slot="start" name="bus"></ion-icon>
                 {{dom.hora}}
               </h2>
